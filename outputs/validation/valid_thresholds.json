@@ -1,0 +1,77 @@
+{
+  "macro_f1": 0.6158169390771356,
+  "accuracy": 0.6304945054945055,
+  "f1_per_class": [
+    0.6811594202898551,
+    0.4696969696969697,
+    0.6965944272445821
+  ],
+  "confusion": [
+    [
+      141,
+      40,
+      25
+    ],
+    [
+      33,
+      93,
+      58
+    ],
+    [
+      34,
+      79,
+      225
+    ]
+  ],
+  "model": "coalition_route",
+  "n_valid": 728,
+  "gate_temperature": 1.0,
+  "threshold_negative_neutral": -0.05437684431672096,
+  "threshold_neutral_positive": 0.29138344526290894,
+  "mae": 0.5564744995553865,
+  "correlation": 0.6820838848679197,
+  "source": "attachment_2_validation_only",
+  "note": "Thresholds and reported classification metrics use the same validation set; they are not held-out test estimates.",
+  "gate_main_counts": {
+    "text": 635,
+    "audio": 9,
+    "vision": 84
+  },
+  "gate_mean_weights": [
+    0.43724663187186796,
+    0.2950320726383355,
+    0.26772129526464167
+  ],
+  "coalition_audit": {
+    "definition": "exact Shapley of full-model predicted-class margin over all eight whole-modality coalitions",
+    "not_ground_truth_modality_importance": true,
+    "empty_coalition_score": 0.0,
+    "main_counts": {
+      "text": 544,
+      "audio": 127,
+      "vision": 57
+    },
+    "n_supportive": 727,
+    "n_uncertain": 87,
+    "n_selected_class_flip": 577,
+    "n_selected_correct_to_wrong": 391,
+    "n_selected_wrong_to_correct": 120,
+    "selected_mean_label_error_increment": 0.21197439055214382,
+    "always_text_mean_label_error_increment": 0.21343986198541473,
+    "n_clear_label_benefit": 633,
+    "match_label_benefit_oracle_clear": 0.5687203791469194,
+    "always_text_match_label_benefit_oracle_clear": 0.6208530805687204,
+    "gate_match_label_benefit_oracle_clear": 0.608214849921011,
+    "fusion_gate_agreement": 0.7060439560439561,
+    "mean_absolute_route_mediation": [
+      0.222895438502067,
+      0.13192864781950922,
+      0.11512159706338998
+    ]
+  },
+  "gate_temperature_candidates": [
+    1.0
+  ],
+  "gate_selection_mae_slack": 0.005,
+  "gate_selection_metric": "macro_f1_with_mae_constraint"
+}

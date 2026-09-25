@@ -1,0 +1,437 @@
+{
+  "sample_count": 20,
+  "all_algorithmic_checks_passed": true,
+  "media_candidates_are_not_feature_provenance_verified": true,
+  "samples": [
+    {
+      "sample_id": "01",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "model-level main-modality separation is weak"
+      ]
+    },
+    {
+      "sample_id": "02",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 2,
+        "feature_only": 2,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used",
+        "audio top evidence lacks verified time mapping",
+        "vision top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "03",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "04",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "05",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": []
+    },
+    {
+      "sample_id": "06",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "07",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 1,
+        "feature_only": 3,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "raw_text_truncated_by_model",
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "raw text truncated to 50 model tokens",
+        "video frame metadata inaccurate; decoded frame count used",
+        "audio top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "08",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "09",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "10",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 2,
+        "feature_only": 2,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used",
+        "vision top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "11",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 2,
+        "feature_only": 2,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used",
+        "audio top evidence lacks verified time mapping",
+        "vision top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "12",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "13",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 2,
+        "feature_only": 0,
+        "vision_frame": 0
+      },
+      "error_attribution_codes": [
+        "aligned_visual_features_unavailable"
+      ],
+      "primary_status": "media_candidate",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "primary local window has weak decision support (<0.02)",
+        "no observed visual feature; no visual keyframe claim"
+      ]
+    },
+    {
+      "sample_id": "14",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 3,
+        "feature_only": 1,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "15",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 0,
+        "feature_only": 4,
+        "vision_frame": 0
+      },
+      "error_attribution_codes": [
+        "text_media_inconsistent"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "text/media mismatch: media evidence mapping withheld",
+        "audio top evidence lacks verified time mapping",
+        "vision top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "16",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 3,
+        "feature_only": 1,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "17",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 3,
+        "feature_only": 1,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "18",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 2,
+        "feature_only": 2,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "raw_text_truncated_by_model",
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "raw text truncated to 50 model tokens",
+        "video frame metadata inaccurate; decoded frame count used",
+        "audio top evidence lacks verified time mapping",
+        "vision top evidence lacks verified time mapping"
+      ]
+    },
+    {
+      "sample_id": "19",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 4,
+        "feature_only": 0,
+        "vision_frame": 2
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "media_candidate",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "primary local window has weak decision support (<0.02)",
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    },
+    {
+      "sample_id": "20",
+      "prediction_replayed": true,
+      "shapley_replayed": true,
+      "primary_occlusion_replayed": true,
+      "all_locations_contract_checked": true,
+      "location_counts": {
+        "text_exact": 2,
+        "media_candidate": 3,
+        "feature_only": 1,
+        "vision_frame": 1
+      },
+      "error_attribution_codes": [
+        "video_frame_metadata_inaccurate"
+      ],
+      "primary_status": "text_exact",
+      "media_requires_extraction_provenance_review": true,
+      "warnings": [
+        "video frame metadata inaccurate; decoded frame count used"
+      ]
+    }
+  ]
+}

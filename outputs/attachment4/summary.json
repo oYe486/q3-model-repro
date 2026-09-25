@@ -1,0 +1,44 @@
+{
+  "n_samples": 20,
+  "output_path": "C:\\Users\\c\\Documents\\cyy\\E\\DLF-main\\outputs\\attachment4\\predictions_20.jsonl",
+  "primary_mapping_status_counts": {
+    "text_exact": 18,
+    "media_candidate": 2
+  },
+  "error_attribution_samples": {
+    "aligned_visual_features_unavailable": [
+      "13"
+    ],
+    "raw_text_truncated_by_model": [
+      "07",
+      "18"
+    ],
+    "text_media_inconsistent": [
+      "15"
+    ],
+    "video_frame_metadata_inaccurate": [
+      "02",
+      "03",
+      "04",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "14",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20"
+    ]
+  },
+  "no_visual_features": [
+    "13"
+  ],
+  "mean_asr_raw_word_match_rate": 0.8939586423310333,
+  "all_media_times_are_candidates": true,
+  "attachment4_used_for_training_or_selection": false
+}

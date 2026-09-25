@@ -1,0 +1,17 @@
+{
+  "release_asset_url": null,
+  "transfer_init": {
+    "filename": "transfer_init_model.pth",
+    "bytes": 441549829,
+    "sha256": "1c5d5877d91ceb62aec044aabe940ddaa35d9f0bf6a3f814df5db566fd58e38c"
+  },
+  "final": {
+    "bytes": 441549829,
+    "sha256": "553377fb1b2dc925e9d0210c18edf5da2a091632937f3eabe8048708fbb41d32",
+    "tensor_sha256": "4f443ec5361b29e1b0b2e4e1d4734a45451bc1429a79836ff49c6d7088772f68"
+  },
+  "aligned_50": {
+    "bytes": 993842861,
+    "sha256": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd"
+  }
+}
