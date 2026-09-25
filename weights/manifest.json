@@ -1,5 +1,5 @@
 {
-  "release_asset_url": null,
+  "release_asset_url": "https://github.com/oYe486/q3-model-repro/releases/download/v1.0.0/transfer_init_model.pth",
   "transfer_init": {
     "filename": "transfer_init_model.pth",
     "bytes": 441549829,

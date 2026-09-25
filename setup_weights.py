@@ -9,6 +9,7 @@ import argparse
 import hashlib
 import json
 import shutil
+import subprocess
 import sys
 import urllib.request
 from pathlib import Path
@@ -57,8 +58,16 @@ def download(url, destination):
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(destination.suffix + ".download")
     request = urllib.request.Request(url, headers={"User-Agent": "q3-model-reproduction/1.0"})
-    with urllib.request.urlopen(request, timeout=120) as response, temporary.open("wb") as stream:
-        shutil.copyfileobj(response, stream, 8 * 1024 * 1024)
+    try:
+        with urllib.request.urlopen(request, timeout=120) as response, temporary.open("wb") as stream:
+            shutil.copyfileobj(response, stream, 8 * 1024 * 1024)
+    except (ImportError, OSError) as error:
+        if not shutil.which("curl"):
+            raise RuntimeError("Python HTTPS download failed and curl is unavailable") from error
+        print("Python HTTPS unavailable; downloading with curl")
+        subprocess.run(["curl", "--silent", "--show-error", "--location", "--fail", "--retry", "3",
+                        "--connect-timeout", "30", "--output", str(temporary), url],
+                       check=True)
     try:
         verify(temporary, MANIFEST["transfer_init"])
         temporary.replace(destination)

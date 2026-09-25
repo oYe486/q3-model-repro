@@ -40,7 +40,7 @@ python -m pip install -r requirements.txt
 
 ## 4. 获取权重并还原最终模型
 
-原始 `transfer_init/model.pth` 大小 `441549829` 字节，SHA256 为 `1c5d5877d91ceb62aec044aabe940ddaa35d9f0bf6a3f814df5db566fd58e38c`。可从现有 `DLF-main/checkpoints/transfer_init/model.pth` 读取，或使用发布在 GitHub Release 的下载地址。**发布地址在上传完成前为空；设置后 `python setup_weights.py` 会自动下载并校验。**也可以显式指定：
+原始 `transfer_init/model.pth` 大小 `441549829` 字节，SHA256 为 `1c5d5877d91ceb62aec044aabe940ddaa35d9f0bf6a3f814df5db566fd58e38c`。权重已发布在 [GitHub Release v1.0.0](https://github.com/oYe486/q3-model-repro/releases/tag/v1.0.0)，固定地址写在 `weights/manifest.json`。从 GitHub 克隆本仓库后，运行 `python setup_weights.py` 会自动下载并校验。若本机已有原始权重，也可以显式指定：
 
 ```powershell
 python setup_weights.py --source "C:\path\to\transfer_init\model.pth"
@@ -85,4 +85,4 @@ python -m utils.verify_attachment4
 
 本目录小包不含附件数据、MP4、`.venv`、Whisper 权重、完整 BERT 权重或两个 421 MB 检查点。建议将**代码包**作为普通 Git 文件，将 `transfer_init_model.pth` 作为 GitHub Release asset；然后把该 asset 的固定版本 URL 写入 `weights/manifest.json` 的 `release_asset_url`。`setup_weights.py` 可自动下载并以 SHA256 防止拿错版本。完整模型不应直接提交到普通 Git 仓库。
 
-如果大权重没有公开、可持续访问的下载位置，本小包只能依赖另行提供原始 `transfer_init/model.pth`，不能声称已实现独立在线复现。
+自动下载需要能够访问 GitHub Release。附件 2 对齐特征仍由原题附件提供；其下载与使用条件不由本仓库管理。
