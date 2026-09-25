@@ -1,0 +1,11 @@
+# Generated large weights and datasets stay outside the lightweight repository.
+checkpoints/
+pretrained/bert-base-uncased/pytorch_model.bin
+datasets/
+.venv/
+__pycache__/
+*.py[cod]
+outputs/attachment4/asr/
+outputs/attachment4/frames/
+outputs/attachment4/audio_primary/
+outputs/attachment4/card_10_assets/
